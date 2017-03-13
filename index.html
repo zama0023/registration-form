@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Want to go to Mars?</title>
+  <title>Request to join the mission</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/modules.css">
   <link rel="stylesheet" href="css/grid.css">
@@ -10,32 +10,31 @@
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
-<body>
-  <section>
+<body class="grid island">
+  <section class="unit pad-t-1-2">
     <div>
-      <h1>Want to go to Mars?</h1>
-      <hr>
-      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      <h2>Personal details</h2>
+      <h1 class="pad-t-1-2 not-bold">Want to go to Mars?</h1>
+      <p class="giga">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <h2 class="giga italic not-bold">Personal details</h2>
 
       <form>
-        <div>
+        <div class="pad-b-1-2 xs-1">
           <label for="name">Name</label>
           <input id="name">
         </div>
 
-        <div>
-          <label for="age">Age</label>
+        <div class="pad-t-1-2 pad-b-1-2 xs-1 s-1 m-1-2 l-1-2">
+          <label for="number">Age</label>
           <input id="number" type="number">
         </div>
 
-        <div>
+        <div class="pad-t-1-2 pad-b-1-2 xs-1 s-1 m-1-2 l-1-2">
           <label for="email">Email</label>
           <input id="email" type="email">
         </div>
 
-        <div>
-          <label class="subject">Physcical fitness</label>
+        <div class="pad-t-1-2 pad-b-1-2 xs-1 s-1 m-1-2 l-1-2">
+          <label class="subject">Physical fitness</label>
           <select id="subject">
             <option>Super-human</option>
             <option>Fit as a fiddle</option>
@@ -44,19 +43,19 @@
           </select>
         </div>
 
-        <div>
+        <div class="pad-t-1-2 pad-b-1-2 xs-1 s-1">
           <label for="address">Address</label>
           <textarea id="address"></textarea>
         </div>
 
-        <h2>Mission statement</h2>
+        <h2 class="giga italic not-bold pad-t-1-2 pad-b-1-4">Mission statement</h2>
 
-        <div>
+        <div class="pad-b-1-2">
           <label for="text">Why do you want to go to Mars?</label>
           <textarea id="text"></textarea>
         </div>
 
-        <div>
+        <div class="push-1-2 pad-t-1-2 text-center">
           <button class="btn" type="submit">Register for the trip!</button>
         </div>
 
